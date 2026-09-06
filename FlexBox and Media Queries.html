@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Page</title>
+  <style>
+
+    .BOX {
+      background-color: mintcream;
+      padding: 20px;
+      width: 200px;
+      margin: 30px;
+    }
+    
+    .cont {
+      display: grid;
+      grid-template-columns: 2fr 2fr 1fr;
+    }
+    
+    h2 {
+      color: blue;
+    }
+
+	body{background-color: salmon;}
+
+	.cont {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media screen and (min-width: 600px) {
+      .cont {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>Welcome to SIU Nagpur</h2>
+  <img src="https://sitnagpur.edu.in/images/infra1.webp" height="200" width="600" alt="SIU Nagpur">
+   
+<h2 style="color: white">Please visit us to enroll in any of our courses.</h2>
+  <div class="cont">
+
+    <div class="BOX">
+      <a href="https://www.sibmnagpur.edu.in/" target="_blank">SIBM Nagpur</a>
+    </div>
+
+    <div class="BOX">
+     <a href="https://www.slsnagpur.edu.in/" target="_blank">SLS Nagpur</a>
+    </div>
+
+    <div class="BOX">
+     <a href="https://sitnagpur.edu.in/" target="_blank">SIT Nagpur</a>
+    </div>
+
+    <div class="BOX">
+    <a href=https://www.sidnagpur.edu.in/ target="_blank">SID Nagpur</a>
+    </div>
+
+  </div>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@siunagpur.edu.in</p>
+    <p>Phone: +91 12345 67890</p>
+
+</section>
+
+</body>
+</html>
